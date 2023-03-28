@@ -350,11 +350,11 @@ const personListOrg = [{
     name: 'Ангелина Зубко',
     link: './images/2023 Prepod Зубко Ангелина.jpg',
   },
-/*   {
+  {
     name: 'Александр Ряховский',
     link: './images/Александр Ряховский.jpg',
   },
-  {
+/*   {
     name: 'Светлана Роднина',
     link: './images/Светлана Роднина.jpg',
   }, */
@@ -366,10 +366,10 @@ const personListOrg = [{
     name: 'Людмила Ершова',
     link: './images/2023 Prepod Ершова Людмила.jpg',
   },
-/*   {
+  {
     name: 'Ольга Богданова',
     link: './images/Ольга Богданова.jpg',
-  }, */
+  },
 ]
 
 const personListVln = [{
