@@ -274,7 +274,7 @@ const personListYar = [{
 
 const personListSp = [{
   name: 'Валерий Абузов',
-  link: './images/2023 СПБ Абузов Валерий 71.png',
+  link: './images/2023 СПБ Абузов Валерий 71.jpg',
 },
   {
     name: 'Алена Абузова',
