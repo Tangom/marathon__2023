@@ -1,38 +1,38 @@
- const personListDJ = [/* {
+ const personListDJ = [{
   name: 'Анатолий Шипилов',
-  link: './images/Анатолий Шипилов.JPG',
+  link: './images/2023 DJ  Шипилов Анатолий 3 Суббота день.jpg',
   town: 'Ростов-на-Дону'
 },
   {
-    name: 'Daniel Tuero',
-    link: './images/Daniel Tuero.jpg',
-    town: 'Buenos Aires/Москва'
+    name: 'Олег Найс',
+    link: './images/2023 DJ  Найс Олег 7 Понедельник.jpg',
+    town: 'Москва'
   },
   {
-    name: 'Ольга Телешева',
-    link: './images/Ольга Телешева.JPG',
+    name: 'Дана Сакимова',
+    link: './images/2023 DJ  Сакимова Дана 2 Пятница.jpg',
     town: 'Москва'
   },
   {
     name: 'Ольга Агапова',
-    link: './images/Ольга Агапова.JPG',
+    link: './images/2023 DJ  Агапова Ольга 6 Воскресенье ночь.jpg',
     town: 'Санкт-Петербург'
   },
   {
     name: 'Дмитрий Баклашов',
-    link: './images/Дмитрий Баклашов.JPG',
+    link: './images/2023 DJ  Баклашов Дмитрий 5 Воскресенье день.jpg',
     town: 'Воронеж'
   },
   {
-    name: 'Екатерина Семёнова',
-    link: './images/Екатерина Семёнова.jpg',
-    town: 'Казань'
+    name: 'Сергей Шпаковский',
+    link: './images/2023 DJ  Шпаковский Сергей 4 Суббота ночь.jpg',
+    town: 'Москва'
   },
   {
-    name: 'Алексей Соколовский',
-    link: './images/Алексей Соколовский.JPG',
-    town: 'Dusseldorf'
-  } */
+    name: 'Владимир Николин',
+    link: './images/2023 DJ Николин Владимир 1 четверг.jpg',
+    town: 'Казань'
+  }
 ] 
 
 const personListIt = [{
@@ -272,6 +272,22 @@ const personListYar = [{
 }
 ] */
 
+const personListTu = [{
+  name: 'Наталья Волкова',
+  link: './images/2023 Тула Волкова Наталья 118.jpg',
+},
+  {
+    name: 'Юрий Мерцалов',
+    link: './images/2023 Тула Мерцалов Юрий 119.jpg',
+  }
+]
+
+const personListHb = [{
+  name: 'Светлана Ленская',
+  link: './images/2023 Хабаровск Ленская Светлана 127.jpg',
+}
+]
+
 const personListSp = [{
   name: 'Валерий Абузов',
   link: './images/2023 СПБ Абузов Валерий 71.jpg',
@@ -372,10 +388,14 @@ const personListOrg = [{
   },
 ]
 
-const personListVln = [{
+const personListVln = [ {
+  name: 'Ирена Алейник',
+  link: './images/2023 vol Алейник Ирена.jpg',
+}, 
+  {
   name: 'Юрий Волков',
   link: './images/2023 vol Волков Юрий 19.jpg',
-},
+  },
   {
     name: 'Вика Казакова',
     link: './images/2023 Vol Казакова Вика 4.jpg',
@@ -415,10 +435,10 @@ const personListFtg = [/* {
   } */
 ]
 
-const allData = [/* {
+const allData = [{
   personList: personListDJ,
   list: '.list_dj',
-}, */
+},
   {
     personList: personListIt,
     list: '.list_it',
@@ -511,6 +531,14 @@ const allData = [/* {
     personList: personListYar,
     list: '.list_yar',
   }, */
+  {
+    personList: personListTu,
+    list: '.list_tu',
+  },
+  {
+    personList: personListHb,
+    list: '.list_hb',
+  },
   {
     personList: personListSp,
     list: '.list_sp',
