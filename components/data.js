@@ -1,38 +1,38 @@
  const personListDJ = [{
-  name: 'Анатолий Шипилов',
-  link: './images/2023 DJ  Шипилов Анатолий 3 Суббота день.jpg',
-  town: 'Ростов-на-Дону'
-},
-  {
-    name: 'Олег Найс',
-    link: './images/2023 DJ  Найс Олег 7 Понедельник.jpg',
-    town: 'Москва'
+    name: 'Владимир Николин',
+    link: './images/2023 DJ Николин Владимир 1 четверг.jpg',
+    town: 'Сочи'
   },
-  {
+    {
     name: 'Дана Сакимова',
     link: './images/2023 DJ  Сакимова Дана 2 Пятница.jpg',
-    town: 'Москва'
-  },
-  {
+    town: 'Белгород'
+    },
+    {
+  name: 'Анатолий Шипилов',
+  link: './images/2023 DJ  Шипилов Анатолий 3 Суббота день.jpg',
+  town: 'Санкт-Петербург'
+    },
+    {
+  name: 'Сергей Шпаковский',
+  link: './images/2023 DJ  Шпаковский Сергей 4 Суббота ночь.jpg',
+  town: 'Москва'
+    },
+    {
+  name: 'Дмитрий Баклашов',
+  link: './images/2023 DJ  Баклашов Дмитрий 5 Воскресенье день.jpg',
+  town: 'Воронеж'
+    },
+    {
     name: 'Ольга Агапова',
     link: './images/2023 DJ  Агапова Ольга 6 Воскресенье ночь.jpg',
     town: 'Санкт-Петербург'
-  },
-  {
-    name: 'Дмитрий Баклашов',
-    link: './images/2023 DJ  Баклашов Дмитрий 5 Воскресенье день.jpg',
-    town: 'Воронеж'
-  },
-  {
-    name: 'Сергей Шпаковский',
-    link: './images/2023 DJ  Шпаковский Сергей 4 Суббота ночь.jpg',
+    },
+    {
+    name: 'Олег Найс',
+    link: './images/2023 DJ  Найс Олег 7 Понедельник.jpg',
     town: 'Москва'
-  },
-  {
-    name: 'Владимир Николин',
-    link: './images/2023 DJ Николин Владимир 1 четверг.jpg',
-    town: 'Казань'
-  }
+    }
 ] 
 
 const personListIt = [{
@@ -418,21 +418,16 @@ const personListVln = [ {
   },
 ]
 
-const personListFtg = [/* {
-  name: 'Александра Денисова',
-  link: './images/Александра Денисова.JPG',
-  town: 'Санкт-Петербург'
+const personListFtg = [{
+  name: 'Sasha Vybornoff',
+  link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
+  town: 'Москва'
 },
   {
-    name: 'Анна Казакова',
-    link: './images/Анна Казакова.JPG',
-    town: 'Екатеринбург'
-  },
-  {
-    name: 'Денис Шириков',
-    link: './images/Денис Шириков.JPG',
+    name: 'Юлия Датура-Чапараль',
+    link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
     town: 'Москва'
-  } */
+  }
 ]
 
 const allData = [{
