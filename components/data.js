@@ -69,37 +69,13 @@ const personListVl = [{
 }
 ]
 
-/* const personListVr = [{
-  name: 'Евгений Аникеев',
-  link: './images/Евгений Аникеев.jpg',
-},
-  {
+const personListVr = [{
     name: 'Игорь Аристов',
-    link: './images/Игорь Аристов.jpg',
-  },
-  {
-    name: 'Ольга Журавлева',
-    link: './images/Ольга Журавлева.jpg',
-  },
-  {
-    name: 'Вероника Ключанская',
-    link: './images/Вероника Ключанская.jpg',
-  },
-  {
-    name: 'Елена Сафонова',
-    link: './images/Елена Сафонова.jpg',
-  },
-  {
-    name: 'Дмитрий Хоменко',
-    link: './images/Дмитрий Хоменко.jpg',
-  },
-  {
-    name: 'Александра Чернова',
-    link: './images/Александра Чернова.jpg',
+    link: './images/2023 Воронеж Аристов Игорь.jpeg',
   }
 ]
 
-const personListEk = [{
+/* const personListEk = [{
   name: 'Александр Мезянкин',
   link: './images/Александр Мезянкин.jpg',
 },
@@ -161,6 +137,10 @@ const personListMo = [
   {
     name: 'Людмила Камелина',
     link: './images/2023 Москва Камелина Людмила 48.jpeg',
+  },
+  {
+    name: 'Ирина Крылова',
+    link: './images/2023 Москва Крылова Ирина.jpeg',
   },
    {
     name: 'Александра Пушкарева',
@@ -313,6 +293,14 @@ const personListSp = [{
     link: './images/2023 СПб Димитрова Ольга 40.jpg',
   },
   {
+    name: 'Александр Захаров',
+    link: './images/2023 СПб Захаров Александр.jpg',
+  },
+  {
+    name: 'Лариса Захарова',
+    link: './images/2023 СПб Захарова Лариса.jpg',
+  },
+  {
     name: 'Анна Карпова',
     link: './images/2023 СПБ Карпова Анна 80.JPG',
   },
@@ -341,6 +329,10 @@ const personListSp = [{
     link: './images/2023 СПБ Подгорная Наталья 46.jpg',
   },
   {
+    name: 'Алексей Пономаренко',
+    link: './images/2023 СПб Пономаренко Алексей.jpg',
+  },
+  {
     name: 'Юрий Турецкий',
     link: './images/2023 СПБ Турецкий Юрий 61.jpg',
   },
@@ -352,6 +344,14 @@ const personListSp = [{
     name: 'Владимир Федорищенко',
     link: './images/2023 СПБ Федорищенко Владимир 36.jpg',
   },
+  {
+    name: 'Александр Цой',
+    link: './images/2023 СПб Цой Александр и Аля.jpg',
+  },
+  {
+    name: 'Аля Цой',
+    link: './images/2023 СПб Цой Александр и Аля.jpg',
+  }
 ]
 
 const personListOrg = [{
@@ -385,7 +385,7 @@ const personListOrg = [{
   {
     name: 'Ольга Богданова',
     link: './images/Ольга Богданова.jpg',
-  },
+  }
 ]
 
 const personListVln = [ {
@@ -415,7 +415,7 @@ const personListVln = [ {
   {
     name: 'Юлия Пашигорова',
     link: './images/2023 Vol Пашигорова Юлия 99.jpg',
-  },
+  }
 ]
 
 const personListFtg = [{
@@ -454,11 +454,11 @@ const allData = [{
     personList: personListVl,
     list: '.list_vl',
   },
- /*  {
+  {
     personList: personListVr,
     list: '.list_vr',
   },
-  {
+  /* {
     personList: personListEk,
     list: '.list_ek',
   },
