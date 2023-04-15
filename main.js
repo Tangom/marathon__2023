@@ -1,5 +1,5 @@
-import {allData} from './components/data.js';
-import {createPersons} from './components/Person.js';
+import { allData } from './components/data.js';
+import { createPersons } from './components/Person.js';
 
 function create(item) {
   item.forEach((item) => {

@@ -1,9 +1,22 @@
 .big {
-    width: 100%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    padding: 100px 0 40px;
-    margin: 0;
-    }
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0 40px;
+  margin: 0;
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .big {
+    padding: 50px 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .big {
+    padding: 50px 0 40px;
+  }
+}
+ */
