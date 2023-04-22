@@ -1,39 +1,39 @@
- const personListDJ = [{
-    name: 'Владимир Николин',
-    link: './images/2023 DJ Николин Владимир 1 четверг.jpg',
-    town: 'Сочи'
-  },
-    {
-    name: 'Дана Сакимова',
-    link: './images/2023 DJ  Сакимова Дана 2 Пятница.jpg',
-    town: 'Белгород'
-    },
-    {
+const personListDJ = [{
+  name: 'Владимир Николин',
+  link: './images/2023 DJ Николин Владимир 1 четверг.jpg',
+  town: 'Сочи'
+},
+{
+  name: 'Дана Сакимова',
+  link: './images/2023 DJ  Сакимова Дана 2 Пятница.jpg',
+  town: 'Белгород'
+},
+{
   name: 'Анатолий Шипилов',
   link: './images/2023 DJ  Шипилов Анатолий 3 Суббота день.jpg',
   town: 'Санкт-Петербург'
-    },
-    {
+},
+{
   name: 'Сергей Шпаковский',
   link: './images/2023 DJ  Шпаковский Сергей 4 Суббота ночь.jpg',
   town: 'Москва'
-    },
-    {
+},
+{
   name: 'Дмитрий Баклашов',
   link: './images/2023 DJ  Баклашов Дмитрий 5 Воскресенье день.jpg',
   town: 'Воронеж'
-    },
-    {
-    name: 'Ольга Агапова',
-    link: './images/2023 DJ  Агапова Ольга 6 Воскресенье ночь.jpg',
-    town: 'Санкт-Петербург'
-    },
-    {
-    name: 'Олег Найс',
-    link: './images/2023 DJ  Найс Олег 7 Понедельник.jpg',
-    town: 'Москва'
-    }
-] 
+},
+{
+  name: 'Ольга Агапова',
+  link: './images/2023 DJ  Агапова Ольга 6 Воскресенье ночь.jpg',
+  town: 'Санкт-Петербург'
+},
+{
+  name: 'Олег Найс',
+  link: './images/2023 DJ  Найс Олег 7 Понедельник.jpg',
+  town: 'Москва'
+}
+]
 
 const personListIt = [{
   name: 'Repetto Massimo ',
@@ -70,22 +70,18 @@ const personListVl = [{
 ]
 
 const personListVr = [{
-    name: 'Игорь Аристов',
-    link: './images/2023 Воронеж Аристов Игорь.jpeg',
-  }
+  name: 'Игорь Аристов',
+  link: './images/2023 Воронеж Аристов Игорь.jpeg',
+}
 ]
 
-/* const personListEk = [{
-  name: 'Александр Мезянкин',
-  link: './images/Александр Мезянкин.jpg',
-},
-  {
-    name: 'Эльвира Рожкова',
-    link: './images/Эльвира Рожкова.jpg',
-  }
+const personListEk = [{
+  name: 'Наталья Рудюк',
+  link: './images/2023 Екатеринбург Рудюк Наталья.jpg',
+}
 ]
 
-const personListIz = [{
+/* const personListIz = [{
   name: 'Наталия Пак',
   link: './images/Наталия Пак.jpg',
 }
@@ -142,7 +138,7 @@ const personListMo = [
     name: 'Ирина Крылова',
     link: './images/2023 Москва Крылова Ирина.jpeg',
   },
-   {
+  {
     name: 'Александра Пушкарева',
     link: './images/2023 Москва Пушкарева Александра 41 .jpg',
   },
@@ -153,23 +149,23 @@ const personListMo = [
 ]
 
 const personListMu = [{
-    name: 'Светлана Заика',
-    link: './images/2023 Мурманск Заика Светлана 39.jpg',
-  },
-  {
-    name: 'Ринат Саляев',
-    link: './images/2023 Мурманск Саляев Ринат 44.jpg',
-  }
+  name: 'Светлана Заика',
+  link: './images/2023 Мурманск Заика Светлана 39.jpg',
+},
+{
+  name: 'Ринат Саляев',
+  link: './images/2023 Мурманск Саляев Ринат 44.jpg',
+}
 ]
 
 const personListNn = [{
   name: 'Олег Кузнецов',
   link: './images/2023 НиНо Кузнецов Олег 29.jpg',
 },
-  {
-    name: 'Галина Кузнецова',
-    link: './images/2023 НиНо Кузнецова Галина 25.jpg',
-  },
+{
+  name: 'Галина Кузнецова',
+  link: './images/2023 НиНо Кузнецова Галина 25.jpg',
+},
 ]
 
 const personListPr = [{
@@ -179,17 +175,25 @@ const personListPr = [{
 ]
 
 const personListPs = [{
-    name: 'Геннадий Жариков',
-    link: './images/2023 Псков Жариков Геннадий 64.JPG',
-  },
-  {
-    name: 'Светлана Лозовская',
-    link: './images/2023 Псков Лозовская Светлана 65.jpg',
-  },
-  {
-    name: 'Светлана Монахова',
-    link: './images/2023 Псков Монахова Светлана 33.jpg',
-  },
+  name: 'Геннадий Жариков',
+  link: './images/2023 Псков Жариков Геннадий 64.JPG',
+},
+{
+  name: 'Светлана Лозовская',
+  link: './images/2023 Псков Лозовская Светлана 65.jpg',
+},
+{
+  name: 'Светлана Монахова',
+  link: './images/2023 Псков Монахова Светлана 33.jpg',
+},
+{
+  name: 'Алексей Сахаров',
+  link: './images/2023 Псков Сахаров Алексей.png',
+},
+{
+  name: 'Инна Сахарова',
+  link: './images/2023 Псков Сахарова Инна.jpeg',
+},
 ]
 
 const personListRs = [{
@@ -199,13 +203,13 @@ const personListRs = [{
 ]
 
 const personListRz = [{
-    name: 'Татьяна Конных',
-    link: './images/2023 Рязань Конных Татьяна 72.jpg',
-  },
-  {
-    name: 'Татьяна Феоктистова',
-    link: './images/2023 Рязань Феоктистова Татьяна 62.jpg',
-  }
+  name: 'Татьяна Конных',
+  link: './images/2023 Рязань Конных Татьяна 72.jpg',
+},
+{
+  name: 'Татьяна Феоктистова',
+  link: './images/2023 Рязань Феоктистова Татьяна 62.jpg',
+}
 ]
 
 const personListSch = [{
@@ -230,12 +234,6 @@ const personListTv = [{
   }
 ]
 
-const personListTm = [{
-  name: 'Ирина Каримова',
-  link: './images/Ирина Каримова.jpg',
-}
-]
-
 const personListChe = [{
   name: 'Владимир Поляков',
   link: './images/Владимир Поляков.jpg',
@@ -256,10 +254,16 @@ const personListTu = [{
   name: 'Наталья Волкова',
   link: './images/2023 Тула Волкова Наталья 118.jpg',
 },
-  {
-    name: 'Юрий Мерцалов',
-    link: './images/2023 Тула Мерцалов Юрий 119.jpg',
-  }
+{
+  name: 'Юрий Мерцалов',
+  link: './images/2023 Тула Мерцалов Юрий 119.jpg',
+}
+]
+
+const personListTm = [{
+  name: 'Ирина Каримова',
+  link: './images/2023 Тюмень Каримова Ирина 129.jpg',
+}
 ]
 
 const personListHb = [{
@@ -272,150 +276,166 @@ const personListSp = [{
   name: 'Валерий Абузов',
   link: './images/2023 СПБ Абузов Валерий 71.jpg',
 },
-  {
-    name: 'Алена Абузова',
-    link: './images/2023 СПБ Абузова Алена 70.png',
-  },
-  {
-    name: 'Татьяна Архипова',
-    link: './images/2023 СПБ Архипова Татьяна 83.jpg',
-  },
-  {
-    name: 'Елена Берестецкая',
-    link: './images/2023 СПБ Берестецкая Елена 58.JPG',
-  },
-  {
-    name: 'Владимир Брагин',
-    link: './images/2023 СПБ Брагин Владимир 84.jpg',
-  },
-  {
-    name: 'Ольга Димитрова',
-    link: './images/2023 СПб Димитрова Ольга 40.jpg',
-  },
-  {
-    name: 'Александр Захаров',
-    link: './images/2023 СПб Захаров Александр.jpg',
-  },
-  {
-    name: 'Лариса Захарова',
-    link: './images/2023 СПб Захарова Лариса.jpg',
-  },
-  {
-    name: 'Анна Карпова',
-    link: './images/2023 СПБ Карпова Анна 80.JPG',
-  },
-  {
-    name: 'Константин Лейно',
-    link: './images/2023 СПБ Лейно Константин 20.jpg',
-  },
-  {
-    name: 'Лариса Лейно',
-    link: './images/2023 СПБ Лейно Лариса 21.jpg',
-  },
-  {
-    name: 'Мария Нейланд',
-    link: './images/2023 СПБ Нейланд Мария 24.jpg',
-  },
-  {
-    name: 'Ольга Павлова',
-    link: './images/2023 СПБ Павлова Ольга 30.jpeg',
-  },
-  {
-    name: 'Денис Подгорный',
-    link: './images/2023 СПб Подгорный Денис 47.jpg',
-  },
-  {
-    name: 'Наталья Подгорная',
-    link: './images/2023 СПБ Подгорная Наталья 46.jpg',
-  },
-  {
-    name: 'Алексей Пономаренко',
-    link: './images/2023 СПб Пономаренко Алексей.jpg',
-  },
-  {
-    name: 'Юрий Турецкий',
-    link: './images/2023 СПБ Турецкий Юрий 61.jpg',
-  },
-  {
-    name: 'Владимир Убушиев',
-    link: './images/2023 СПБ Убушиев Владимир 76.jpg',
-  },
-  {
-    name: 'Владимир Федорищенко',
-    link: './images/2023 СПБ Федорищенко Владимир 36.jpg',
-  },
-  {
-    name: 'Александр Цой',
-    link: './images/2023 СПб Цой Александр и Аля.jpg',
-  },
-  {
-    name: 'Аля Цой',
-    link: './images/2023 СПб Цой Александр и Аля.jpg',
-  }
+{
+  name: 'Алена Абузова',
+  link: './images/2023 СПБ Абузова Алена 70.png',
+},
+{
+  name: 'Инна Апрельская',
+  link: './images/2023 СПб Апрельская Инна.jpg',
+},
+{
+  name: 'Татьяна Архипова',
+  link: './images/2023 СПБ Архипова Татьяна 83.jpg',
+},
+{
+  name: 'Елена Берестецкая',
+  link: './images/2023 СПБ Берестецкая Елена 58.JPG',
+},
+{
+  name: 'Владимир Брагин',
+  link: './images/2023 СПБ Брагин Владимир 84.jpg',
+},
+{
+  name: 'Константин Волошенко',
+  link: './images/2023 СПб Волошенко Константин.jpg',
+},
+{
+  name: 'Ольга Димитрова',
+  link: './images/2023 СПб Димитрова Ольга 40.jpg',
+},
+{
+  name: 'Александр Захаров',
+  link: './images/2023 СПб Захаров Александр.jpg',
+},
+{
+  name: 'Лариса Захарова',
+  link: './images/2023 СПб Захарова Лариса.jpg',
+},
+{
+  name: 'Анна Карпова',
+  link: './images/2023 СПБ Карпова Анна 80.JPG',
+},
+{
+  name: 'Константин Лейно',
+  link: './images/2023 СПБ Лейно Константин 20.jpg',
+},
+{
+  name: 'Лариса Лейно',
+  link: './images/2023 СПБ Лейно Лариса 21.jpg',
+},
+{
+  name: 'Иван Неверов',
+  link: './images/2023 СПб Неверов Иван.jpg',
+},
+{
+  name: 'Мария Нейланд',
+  link: './images/2023 СПБ Нейланд Мария 24.jpg',
+},
+{
+  name: 'Ольга Павлова',
+  link: './images/2023 СПБ Павлова Ольга 30.jpeg',
+},
+{
+  name: 'Денис Подгорный',
+  link: './images/2023 СПб Подгорный Денис 47.jpg',
+},
+{
+  name: 'Наталья Подгорная',
+  link: './images/2023 СПБ Подгорная Наталья 46.jpg',
+},
+{
+  name: 'Алексей Пономаренко',
+  link: './images/2023 СПб Пономаренко Алексей.jpg',
+},
+{
+  name: 'Михо Саградян',
+  link: './images/2023 СПб Саградян Михо.jpg',
+},
+{
+  name: 'Юрий Турецкий',
+  link: './images/2023 СПБ Турецкий Юрий 61.jpg',
+},
+{
+  name: 'Владимир Убушиев',
+  link: './images/2023 СПБ Убушиев Владимир 76.jpg',
+},
+{
+  name: 'Владимир Федорищенко',
+  link: './images/2023 СПБ Федорищенко Владимир 36.jpg',
+},
+{
+  name: 'Александр Цой',
+  link: './images/2023 СПб Цой Александр и Аля.jpg',
+},
+{
+  name: 'Аля Цой',
+  link: './images/2023 СПб Цой Александр и Аля.jpg',
+}
 ]
 
 const personListOrg = [{
   name: 'Владислав Калугин',
   link: './images/2023 Prepod  Калугин Владислав.jpg',
 },
-  {
-    name: 'Елена Слуцкая',
-    link: './images/2023 Prepod Слуцкая Елена.jpg',
-  },
-  {
-    name: 'Ангелина Зубко',
-    link: './images/2023 Prepod Зубко Ангелина.jpg',
-  },
-  {
-    name: 'Александр Ряховский',
-    link: './images/Александр Ряховский.jpg',
-  },
+{
+  name: 'Елена Слуцкая',
+  link: './images/2023 Prepod Слуцкая Елена.jpg',
+},
+{
+  name: 'Ангелина Зубко',
+  link: './images/2023 Prepod Зубко Ангелина.jpg',
+},
+{
+  name: 'Александр Ряховский',
+  link: './images/Александр Ряховский.jpg',
+},
 /*   {
     name: 'Светлана Роднина',
     link: './images/Светлана Роднина.jpg',
   }, */
-  {
-    name: 'Михаил Федоровский',
-    link: './images/2023 Prepod Федоровский Михаил.jpg',
-  },
-  {
-    name: 'Людмила Ершова',
-    link: './images/2023 Prepod Ершова Людмила.jpg',
-  },
-  {
-    name: 'Ольга Богданова',
-    link: './images/Ольга Богданова.jpg',
-  }
+{
+  name: 'Михаил Федоровский',
+  link: './images/2023 Prepod Федоровский Михаил.jpg',
+},
+{
+  name: 'Людмила Ершова',
+  link: './images/2023 Prepod Ершова Людмила.jpg',
+},
+{
+  name: 'Ольга Богданова',
+  link: './images/Ольга Богданова.jpg',
+}
 ]
 
-const personListVln = [ {
+const personListVln = [{
   name: 'Ирена Алейник',
   link: './images/2023 vol Алейник Ирена.jpg',
-}, 
-  {
+},
+{
   name: 'Юрий Волков',
   link: './images/2023 vol Волков Юрий 19.jpg',
-  },
-  {
-    name: 'Вика Казакова',
-    link: './images/2023 Vol Казакова Вика 4.jpg',
-  },
-  {
-    name: 'Ольга Кузнецова',
-    link: './images/2023 vol Кузнецова Ольга 5.jpg',
-  },
-  {
-    name: 'Игорь Менщиков',
-    link: './images/2023 Vol Менщиков Игорь 3.jpg',
-  },
-  {
-    name: 'Владимир Огородников',
-    link: './images/2023 vol Огородников Владимир 59.jpg',
-  },
-  {
-    name: 'Юлия Пашигорова',
-    link: './images/2023 Vol Пашигорова Юлия 99.jpg',
-  }
+},
+{
+  name: 'Вика Казакова',
+  link: './images/2023 Vol Казакова Вика 4.jpg',
+},
+{
+  name: 'Ольга Кузнецова',
+  link: './images/2023 vol Кузнецова Ольга 5.jpg',
+},
+{
+  name: 'Игорь Менщиков',
+  link: './images/2023 Vol Менщиков Игорь 3.jpg',
+},
+{
+  name: 'Владимир Огородников',
+  link: './images/2023 vol Огородников Владимир 59.jpg',
+},
+{
+  name: 'Юлия Пашигорова',
+  link: './images/2023 Vol Пашигорова Юлия 99.jpg',
+}
 ]
 
 const personListFtg = [{
@@ -423,25 +443,25 @@ const personListFtg = [{
   link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
   town: 'Москва'
 },
-  {
-    name: 'Юлия Датура-Чапараль',
-    link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
-    town: 'Москва'
-  }
+{
+  name: 'Юлия Датура-Чапараль',
+  link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
+  town: 'Москва'
+}
 ]
 
 const allData = [{
   personList: personListDJ,
   list: '.list_dj',
 },
-  {
-    personList: personListIt,
-    list: '.list_it',
-  },
-  {
-    personList: personListUSA,
-    list: '.list_sr',
-  },
+{
+  personList: personListIt,
+  list: '.list_it',
+},
+{
+  personList: personListUSA,
+  list: '.list_sr',
+},
 /*   {
     personList: personListLaLi,
     list: '.list_laLi',
@@ -450,107 +470,107 @@ const allData = [{
     personList: personListBy,
     list: '.list_by',
   }, */
-  {
-    personList: personListVl,
-    list: '.list_vl',
-  },
-  {
-    personList: personListVr,
-    list: '.list_vr',
-  },
-  /* {
-    personList: personListEk,
-    list: '.list_ek',
-  },
-  {
-    personList: personListIr,
-    list: '.list_ir',
-  },
-  {
-    personList: personListKz,
-    list: '.list_kz',
-  },
-  {
-    personList: personListKr,
-    list: '.list_kr',
-  }, */
-  {
-    personList: personListMo,
-    list: '.list_mo',
-  },
-  {
-    personList: personListMu,
-    list: '.list_mu',
-  },
-  {
-    personList: personListNn,
-    list: '.list_nn',
-  },
-  {
-    personList: personListPr,
-    list: '.list_pk',
-  },
-  {
-    personList: personListPs,
-    list: '.list_ps',
-  },
-  {
-    personList: personListRs,
-    list: '.list_rs',
-  },
-  {
-    personList: personListRz,
-    list: '.list_rz',
-  },
-  {
-    personList: personListSch,
-    list: '.list_sch',
-  },
-  {
-    personList: personListTv,
-    list: '.list_tv',
-  },
- /*  {
-    personList: personListTo,
-    list: '.list_to',
-  },
-  {
-    personList: personListTm,
-    list: '.list_tm',
-  },
-  {
-    personList: personListChe,
-    list: '.list_che',
-  },
-  {
-    personList: personListYar,
-    list: '.list_yar',
-  }, */
-  {
-    personList: personListTu,
-    list: '.list_tu',
-  },
-  {
-    personList: personListHb,
-    list: '.list_hb',
-  },
-  {
-    personList: personListSp,
-    list: '.list_sp',
-  },
-  {
-    personList: personListOrg,
-    list: '.list_org',
-  },
-  {
-    personList: personListVln,
-    list: '.list_vln',
-  },
-  {
-    personList: personListFtg,
-    list: '.list_ftg',
-  }
+{
+  personList: personListVl,
+  list: '.list_vl',
+},
+{
+  personList: personListVr,
+  list: '.list_vr',
+},
+{
+  personList: personListEk,
+  list: '.list_ek',
+},
+// {
+//   personList: personListIr,
+//   list: '.list_ir',
+// },
+// {
+//   personList: personListKz,
+//   list: '.list_kz',
+// },
+// {
+//   personList: personListKr,
+//   list: '.list_kr',
+// },
+{
+  personList: personListMo,
+  list: '.list_mo',
+},
+{
+  personList: personListMu,
+  list: '.list_mu',
+},
+{
+  personList: personListNn,
+  list: '.list_nn',
+},
+{
+  personList: personListPr,
+  list: '.list_pk',
+},
+{
+  personList: personListPs,
+  list: '.list_ps',
+},
+{
+  personList: personListRs,
+  list: '.list_rs',
+},
+{
+  personList: personListRz,
+  list: '.list_rz',
+},
+{
+  personList: personListSch,
+  list: '.list_sch',
+},
+{
+  personList: personListTv,
+  list: '.list_tv',
+},
+/*  {
+   personList: personListTo,
+   list: '.list_to',
+ },
+ {
+   personList: personListChe,
+   list: '.list_che',
+ },
+ {
+   personList: personListYar,
+   list: '.list_yar',
+ }, */
+{
+  personList: personListTu,
+  list: '.list_tu',
+},
+{
+  personList: personListTm,
+  list: '.list_tm',
+},
+{
+  personList: personListHb,
+  list: '.list_hb',
+},
+{
+  personList: personListSp,
+  list: '.list_sp',
+},
+{
+  personList: personListOrg,
+  list: '.list_org',
+},
+{
+  personList: personListVln,
+  list: '.list_vln',
+},
+{
+  personList: personListFtg,
+  list: '.list_ftg',
+}
 ]
 
 
-export {allData};
+export { allData };
