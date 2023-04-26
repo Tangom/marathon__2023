@@ -72,6 +72,14 @@ const personListVl = [{
 const personListVr = [{
   name: 'Игорь Аристов',
   link: './images/2023 Воронеж Аристов Игорь.jpeg',
+},
+{
+  name: 'Евгений Аникеев',
+  link: './images/2023 Воронеж Аникеев Евгений.png',
+},
+{
+  name: 'Вероника Аникеева',
+  link: './images/2023 Воронеж Аникеева Вероника.png',
 }
 ]
 
@@ -203,8 +211,20 @@ const personListRs = [{
 ]
 
 const personListRz = [{
+  name: 'Арина Ежова',
+  link: './images/2023 Рязань Ежова Арина.jpg',
+},
+  {
   name: 'Татьяна Конных',
   link: './images/2023 Рязань Конных Татьяна 72.jpg',
+},
+{
+  name: 'Владимир Муравьев',
+  link: './images/2023 Рязань Муравьевы Татьяна и Владимир.jpg',
+},
+{
+  name: 'Татьяна Муравьева',
+  link: './images/2023 Рязань Муравьевы Татьяна и Владимир.jpg',
 },
 {
   name: 'Татьяна Феоктистова',
@@ -317,6 +337,10 @@ const personListSp = [{
   link: './images/2023 СПБ Карпова Анна 80.JPG',
 },
 {
+  name: 'Роман Лебедев',
+  link: './images/2023 СПб Лебедев Роман.jpg',
+},
+{
   name: 'Константин Лейно',
   link: './images/2023 СПБ Лейно Константин 20.jpg',
 },
@@ -408,9 +432,18 @@ const personListOrg = [{
 }
 ]
 
-const personListVln = [{
+const personListVln = [
+  {
+    name: 'Дмитрий Аверин',
+    link: './images/2023 Vol Аверин Дмитрий..jpg',
+  },
+  {
   name: 'Ирена Алейник',
   link: './images/2023 vol Алейник Ирена.jpg',
+},
+{
+  name: 'Инга Бабкевич-Мацюшевская',
+  link: './images/2023 vol Бабкевич-Мацюшевская Инга.jpg',
 },
 {
   name: 'Юрий Волков',
@@ -435,6 +468,10 @@ const personListVln = [{
 {
   name: 'Юлия Пашигорова',
   link: './images/2023 Vol Пашигорова Юлия 99.jpg',
+},
+{
+  name: 'Татьяна Чижова',
+  link: './images/2023 Vol Чижова Татьяна.jpg',
 }
 ]
 
