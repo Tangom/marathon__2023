@@ -66,20 +66,36 @@ const personListBy = [{
 const personListVl = [{
   name: 'Игорь Лукьянов',
   link: './images/2023 Владивосток  Лукьянов Игорь 81.jpg',
+},
+{
+  name: ' Сергей Белокопытов',
+  link: './images/2023 Владивосток Белокопытовы Ольга и Сергей.jpg',
+},
+{
+  name: 'Ольга Белокопытова',
+  link: './images/2023 Владивосток Белокопытовы Ольга и Сергей.jpg',
+},
+{
+  name: 'Ольга Саитгареева',
+  link: './images/2023 Владивосток Саитгареева Ольга.jpeg',
 }
 ]
 
 const personListVr = [{
-  name: 'Игорь Аристов',
-  link: './images/2023 Воронеж Аристов Игорь.jpeg',
-},
-{
   name: 'Евгений Аникеев',
   link: './images/2023 Воронеж Аникеев Евгений.png',
 },
 {
   name: 'Вероника Аникеева',
   link: './images/2023 Воронеж Аникеева Вероника.png',
+},
+{
+  name: 'Игорь Аристов',
+  link: './images/2023 Воронеж Аристов Игорь.jpeg',
+},
+{
+  name: 'Данил Бугаков',
+  link: './images/2023 Воронеж Бугаков Данил.jpg',
 }
 ]
 
@@ -143,8 +159,24 @@ const personListMo = [
     link: './images/2023 Москва Камелина Людмила 48.jpeg',
   },
   {
+    name: 'Александр Одинцов',
+    link: './images/2023 Москва Зеленогорск Одинцов Александр.jpg',
+  },
+  {
     name: 'Ирина Крылова',
     link: './images/2023 Москва Крылова Ирина.jpeg',
+  },
+  {
+    name: 'Евгения Мерзликина',
+    link: './images/2023 Москва Мерзликина Евгения.jpg',
+  },
+  {
+    name: 'Александр Микерин',
+    link: './images/2023 Москва Микерин Александр.jpg',
+  },
+  {
+    name: 'Анна Птенцова',
+    link: './images/2023 Москва Птенцова Анна.jpg',
   },
   {
     name: 'Александра Пушкарева',
@@ -173,6 +205,10 @@ const personListNn = [{
 {
   name: 'Галина Кузнецова',
   link: './images/2023 НиНо Кузнецова Галина 25.jpg',
+},
+{
+  name: 'Илья Шульпин',
+  link: './images/2023 Нижний Новгород Шульпин Илья.jpg',
 },
 ]
 
@@ -231,7 +267,11 @@ const personListRz = [{
   link: './images/2023 Рязань Феоктистова Татьяна 62.jpg',
 }
 ]
-
+const personListSgP = [{
+  name: ' Виктор Смирнов',
+  link: './images/2023 Сергиев Посад Смирнов Виктор.png',
+}
+]
 const personListSch = [{
   name: 'Иван Якушев',
   link: './images/2023 Сочи Якушев Иван 37.png',
@@ -253,17 +293,6 @@ const personListTv = [{
     link: './images/Андрей Сурашенко.jpg',
   }
 ]
-
-const personListChe = [{
-  name: 'Владимир Поляков',
-  link: './images/Владимир Поляков.jpg',
-},
-  {
-    name: 'Светлана Полякова',
-    link: './images/Светлана Полякова.jpg',
-  }
-]
-
 const personListYar = [{
   name: 'Ольга Плетнева',
   link: './images/Ольга Плетнева.jpg',
@@ -290,6 +319,16 @@ const personListHb = [{
   name: 'Светлана Ленская',
   link: './images/2023 Хабаровск Ленская Светлана 127.jpg',
 }
+]
+
+const personListChe = [{
+  name: 'Антон Голявинский',
+  link: './images/2023 Челябинск Голявинский Антон.jpg',
+},
+  {
+    name: 'Наталья Голявинская',
+    link: './images/2023 Челябинск Голявинская Наталья.jpg',
+  }
 ]
 
 const personListSp = [{
@@ -331,6 +370,10 @@ const personListSp = [{
 {
   name: 'Лариса Захарова',
   link: './images/2023 СПб Захарова Лариса.jpg',
+},
+{
+  name: 'Светлана Захарова',
+  link: './images/2023 СПБ Захарова Светлана.jpg',
 },
 {
   name: 'Анна Карпова',
@@ -383,6 +426,10 @@ const personListSp = [{
 {
   name: 'Владимир Убушиев',
   link: './images/2023 СПБ Убушиев Владимир 76.jpg',
+},
+{
+  name: 'Анна Ушакова',
+  link: './images/2023 СПБ Ушакова Анна.jpeg',
 },
 {
   name: 'Владимир Федорищенко',
@@ -468,6 +515,14 @@ const personListVln = [
 {
   name: 'Юлия Пашигорова',
   link: './images/2023 Vol Пашигорова Юлия 99.jpg',
+},
+{
+  name: 'Татьяна Раевская',
+  link: './images/2023 Vol Раевская Татьяна.jpg',
+},
+{
+  name: 'Мария Усевич',
+  link: './images/2023 Vol Усевич Мария.jpg',
 },
 {
   name: 'Татьяна Чижова',
@@ -560,6 +615,10 @@ const allData = [{
   list: '.list_rz',
 },
 {
+  personList: personListSgP,
+  list: '.list_sgp',
+},
+{
   personList: personListSch,
   list: '.list_sch',
 },
@@ -571,10 +630,7 @@ const allData = [{
    personList: personListTo,
    list: '.list_to',
  },
- {
-   personList: personListChe,
-   list: '.list_che',
- },
+
  {
    personList: personListYar,
    list: '.list_yar',
@@ -590,6 +646,10 @@ const allData = [{
 {
   personList: personListHb,
   list: '.list_hb',
+},
+{
+  personList: personListChe,
+  list: '.list_che',
 },
 {
   personList: personListSp,
