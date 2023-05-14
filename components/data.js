@@ -466,41 +466,37 @@ const personListSp = [{
 ]
 
 const personListOrg = [{
+    name: 'Елена Слуцкая',
+    link: './images/2023 Prepod Слуцкая Елена.jpg',
+},
+{
   name: 'Владислав Калугин',
   link: './images/2023 Prepod  Калугин Владислав.jpg',
 },
 {
-  name: 'Елена Слуцкая',
-  link: './images/2023 Prepod Слуцкая Елена.jpg',
+  name: 'Михаил Федоровский',
+  link: './images/2023 Prepod Федоровский Михаил.jpg',
+},
+{
+  name: 'Александр Ряховский',
+  link: './images/Александр Ряховский.jpg',
 },
 {
   name: 'Ангелина Зубко',
   link: './images/2023 Prepod Зубко Ангелина.jpg',
 },
 {
-  name: 'Наталья Ростова',
-  link: './images/2023 СПб Ростова Наталья.jpg',
-},
-{
-  name: 'Александр Ряховский',
-  link: './images/Александр Ряховский.jpg',
-},
-/*   {
-    name: 'Светлана Роднина',
-    link: './images/Светлана Роднина.jpg',
-  }, */
-{
-  name: 'Михаил Федоровский',
-  link: './images/2023 Prepod Федоровский Михаил.jpg',
+  name: 'Ольга Богданова',
+  link: './images/Ольга Богданова.jpg',
 },
 {
   name: 'Людмила Ершова',
   link: './images/2023 Prepod Ершова Людмила.jpg',
 },
 {
-  name: 'Ольга Богданова',
-  link: './images/Ольга Богданова.jpg',
-}
+  name: 'Наталья Ростова',
+  link: './images/2023 СПб Ростова Наталья.jpg',
+},
 ]
 
 const personListVln = [
