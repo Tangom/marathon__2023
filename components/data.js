@@ -584,6 +584,10 @@ const personListVln = [
   link: './images/2023 Vol Баканов Николай.jpg',
 },
 {
+  name: 'Никита Бабаев',
+  link: './images/2023 Vol Бабаев Никита.jpg',
+},
+{
   name: 'Инга Бабкевич-Мацюшевская',
   link: './images/2023 vol Бабкевич-Мацюшевская Инга.jpg',
 },
