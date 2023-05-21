@@ -202,10 +202,6 @@ const personListMo = [{
     link: './images/2023 Москва Крылова Ирина.jpeg',
   },
   {
-    name: 'Анна Мазухина',
-    link: './images/2023 Москва Мазухина Анна.jpg',
-  },
-  {
     name: 'Александр Матросов',
     link: './images/2023 Москва Матросов Александр.JPG',
   },
@@ -350,6 +346,10 @@ const personListSch = [{
 const personListTv = [{
   name: 'Андрей Колобов',
   link: './images/2023 Тверь Колобов Андрей 55.jpg',
+},
+{
+  name: 'Анна Мазухина',
+  link: './images/2023 Москва Мазухина Анна.jpg',
 }
 ]
 
