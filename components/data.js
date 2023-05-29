@@ -380,12 +380,24 @@ const personListSch = [{
 ]
 
 const personListTv = [{
+  name: 'Влад Калиниченко',
+  link: './images/2023 Тверь Калиниченко Влад.jpg',
+},
+{
   name: 'Андрей Колобов',
   link: './images/2023 Тверь Колобов Андрей 55.jpg',
 },
 {
   name: 'Анна Мазухина',
   link: './images/2023 Москва Мазухина Анна.jpg',
+},
+{
+  name: 'Евгений Новиков',
+  link: './images/2023 Тверь Новиков Евгений.jpg',
+},
+{
+  name: 'Мария Новикова',
+  link: './images/2023 Тверь Новикова Мария.jpg',
 }
 ]
 
@@ -428,10 +440,14 @@ const personListChe = [{
   name: 'Антон Голявинский',
   link: './images/2023 Челябинск Голявинский Антон.jpg',
 },
-  {
+{
     name: 'Наталья Голявинская',
     link: './images/2023 Челябинск Голявинская Наталья.jpg',
-  }
+},
+{
+  name: 'Елена Суетина',
+  link: './images/2023 Челябинск Суетина Елена.png',
+}
 ]
 
 const personListSp = [{
@@ -628,8 +644,8 @@ const personListVln = [
   link: './images/2023 vol Алейник Ирена.jpg',
 },
 {
-  name: 'Николай Баканов',
-  link: './images/2023 Vol Баканов Николай.jpg',
+  name: 'Вероника Артамонова',
+  link: './images/2023 Vol Артамонова Вероника.jpg',
 },
 {
   name: 'Никита Бабаев',
@@ -644,8 +660,8 @@ const personListVln = [
   link: './images/2023 vol Бабкевич-Мацюшевская Инга.jpg',
 },
 {
-  name: 'Юрий Волков',
-  link: './images/2023 vol Волков Юрий 19.jpg',
+  name: 'Николай Баканов',
+  link: './images/2023 Vol Баканов Николай.jpg',
 },
 {
   name: 'Юлия Дейкова',
@@ -684,10 +700,6 @@ const personListVln = [
   link: './images/2023 Vol Пашигорова Юлия 99.jpg',
 },
 {
-  name: 'Татьяна Раевская',
-  link: './images/2023 Vol Раевская Татьяна.jpg',
-},
-{
   name: 'Жанна Русина',
   link: './images/2023 Vol Русина Жанна.jpg',
 },
@@ -698,6 +710,10 @@ const personListVln = [
 {
   name: 'Оксана Семенова',
   link: './images/2023 Vol Семеновы Оксана и Василий.jpg',
+},
+{
+  name: 'Елена Скорикова',
+  link: './images/2023 vol Скорикова Елена.jpg',
 },
 {
   name: 'Мария Усевич',
@@ -718,6 +734,16 @@ const personListFtg = [{
   name: 'Юлия Датура-Чапараль',
   link: './images/2023 Photo Sasha Vybornoff Юлия Датура-Чапараль.jpg',
   town: 'Москва'
+},
+{
+  name: 'Ксения Оржесковская',
+  link: './images/2023 Photograph Оржесковская Ксения.jpg',
+  town: 'Санкт-Петербург'
+},
+{
+  name: 'Вера Юрьева',
+  link: './images/2023 Photograph Юрьева  Вера.jpg',
+  town: 'Санкт-Петербург'
 }
 ]
 
