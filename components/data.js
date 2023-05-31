@@ -307,6 +307,12 @@ const personListNn = [{
 },
 ]
 
+const personListNо = [{
+  name: 'Алексей Вахмянин',
+  link: './images/2023 Новосибирск Вахмянин Алексей.jpg',
+}
+]
+
 const personListPr = [{
   name: 'Антон Тонков',
   link: './images/2023 Пермь Тонков Антон 95.jpg',
@@ -575,6 +581,10 @@ const personListSp = [{
   link: './images/2023 СПб Пайгалик Александр.jpg',
 },
 {
+  name: 'Александра Писаренко',
+  link: './images/2023 СПб Писаренко Александра.jpg',
+},
+{
   name: 'Денис Подгорный',
   link: './images/2023 СПб Подгорный Денис 47.jpg',
 },
@@ -830,6 +840,10 @@ const allData = [{
 {
   personList: personListNn,
   list: '.list_nn',
+},
+{
+  personList: personListNо,
+  list: '.list_no',
 },
 {
   personList: personListPr,
